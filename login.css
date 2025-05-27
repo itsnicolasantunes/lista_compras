@@ -3,11 +3,11 @@
 
 /*Variaveis Globais*/
 :root {
-    --cor-primaria: ;
-    --cor-primaria-escura: ;
-    --cor-bg: ;
-    --cor-branco: ;
-    --cor-borda: ;
+    --cor-primaria: #394032 ;
+    --cor-primaria-escura: #1E2019 ;
+    --cor-bg: #8DAB7F;
+    --cor-branco: #fefaf1 ;
+    --cor-borda: #CFEE9E;
     --cor-sombra: rgba();
     --cor-texto: ;
 
@@ -15,4 +15,18 @@
 
     --raio: 0.8rem;
     --transition: 0.3s ease;
+}
+
+/*reset css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body*/
+body{
+    font-family: var(--fonte);
+    background: #394032;
+    background: linear-gradient(90deg, rgba(57, 64, 50, 1) 0%, rgba(141, 171, 127, 1) 50%, rgba(207, 238, 158, 1) 100%);
 }
