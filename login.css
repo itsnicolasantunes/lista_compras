@@ -3,10 +3,10 @@
 
 /*Variaveis Globais*/
 :root {
-    --cor-primaria: #3786A6 ;
-    --cor-primaria-escura: #2f4d59 ;
+    --cor-primaria: #3786A6;
+    --cor-primaria-escura: #2f4d59;
     --cor-bg: #bf6f41;
-    --cor-branco: #fefaf1 ;
+    --cor-branco: #fefaf1;
     --cor-borda: #bf6849;
     --cor-sombra: rgba();
     --cor-texto: ;
@@ -27,8 +27,8 @@
 /*-------body----------*/
 body {
     font-family: var(--fonte);
-    
-    background: linear-gradient(90deg, #3786A6, #2f4d59, #bf6f41, #bf6849, #fefaf1,);
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,7 +109,8 @@ button:hover {
         padding: 1.5rem;
     }
 
-    input, button {
+    input,
+    button {
         font-size: 0.95rem;
     }
 }
