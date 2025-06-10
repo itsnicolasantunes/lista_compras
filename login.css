@@ -27,7 +27,7 @@
 /*-------body----------*/
 body {
     font-family: var(--fonte);
-    background: #2A7B9B;
+    
     background: linear-gradient(90deg, #3786A6, #2f4d59, #bf6f41, #bf6849, #fefaf1,);
     display: flex;
     justify-content: center;
