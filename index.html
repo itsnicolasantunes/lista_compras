@@ -1,31 +1,31 @@
-<!-- Página principal após login -->
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Lista de Compras</title>
+    <title>Lista de Compras</title>
     <meta name="theme-color" content="#93A3B1">
     <link rel="manifest" href="manifest.json">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="icons/icon-192x192.png">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <img id="logo" src="icons/favicon.ico" alt="logo">
-    <h2>Minha Lista de Compras</h2>
 
-    <!-- Botão para sair da conta -->
+<body>
+    <img id="logo" src="icons/icon-512x512.png" alt="logo">
+    <h2 class="titulo">Minha lista de Compras</h2>
+
+    <!--botão para sair da conta-->
     <button onclick="logout()">Sair</button>
 
-    <!-- Lista onde os itens serão renderizados -->
+    <!--lista onde os itens serão renderizados-->
     <ul id="lista"></ul>
 
-    <!-- Campo de input para adicionar novo item -->
-    <input type="text" id="item" placeholder="Novo item">
+    <!--input e botão para incluir itens-->
+    <input type="text" name="" id="item" placeholder="Novo Item">
     <button onclick="adicionarItem()">Adicionar</button>
 
-    <!-- Importa a lógica principal do app -->
     <script type="module" src="app.js"></script>
 
     <script>
@@ -42,4 +42,5 @@
         }
     </script>
 </body>
+
 </html>
